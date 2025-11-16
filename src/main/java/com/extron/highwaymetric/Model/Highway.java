@@ -28,7 +28,7 @@ public class Highway {
     
     @JdbcTypeCode(SqlTypes.GEOMETRY)
     @Column(name="geom")
-    private MultiLineString geom;
+    private MultiLineString geom;//test code
 
     @Enumerated(EnumType.STRING)
     private HighwayStatus status = HighwayStatus.PLANNING;
